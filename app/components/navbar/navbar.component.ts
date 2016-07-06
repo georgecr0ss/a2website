@@ -9,8 +9,10 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
 })
 export class NavbarComponent { 
     private projectName: string;
+    private url:string;
     
     constructor(){
         this.projectName = 'Moose inc.'
+        this.url = "http://www.clipartkid.com/images/390/1330620618-a171-05-cute-cartoon-moose-jpg-images-frompo-7LqHT4-clipart.jpg";
     }
 }
