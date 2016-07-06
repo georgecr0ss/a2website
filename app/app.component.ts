@@ -9,12 +9,8 @@ import { ROUTER_DIRECTIVES } from '@angular/router';
     selector: 'my-app',
     template: `
         <navbar></navbar>
-        <jumbotron></jumbotron> 
-        <div class="container">   
-            <a [routerLink]="['/home']" style="color:white">Home</a>
-            <a [routerLink]="['/about']" style="color:white">About</a>
-            <router-outlet></router-outlet>
-        </div>
+        <jumbotron></jumbotron>  
+        <router-outlet></router-outlet> 
        
     `,
     directives:[ROUTER_DIRECTIVES, NavbarComponent, JumbotronComponent,
