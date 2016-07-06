@@ -18,7 +18,7 @@ export class JumbotronComponent {
                 It includes a large callout called a jumbotron 
                 and three supporting pieces of content. Use it as a 
                 starting point to create something more unique.`;
-        this.jbtBtnTxt = 'Learn more »'
-        this.jbtBtnUrl = '#'
+        this.jbtBtnTxt = 'Angular routes »'
+        this.jbtBtnUrl = 'https://angular.io/docs/ts/latest/guide/router.html'
     }
 }
