@@ -1,5 +1,5 @@
  body {
-     background-color:#35235D;
+     background-color:#Fafafa;
      /*background-color: #49E9BD;*/
 
      /*background-color: #D0FAEE;*/
@@ -30,14 +30,18 @@
 }
 
 .navbar-light,footer { 
-   background-color: #20BF9F;
+    /*margin-bottom: 0px;*/
+   background-color: #009688;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
  }
 footer {
   margin-top: 2rem;
   /*padding-top: 3rem;
   padding-bottom: 3rem;*/
 }
-
+.jumbotron {
+      background: linear-gradient(rgb(0,121,107),rgb(0,150,136));
+}
 footer p {
   margin-bottom: .25rem;
 }
