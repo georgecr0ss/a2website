@@ -29,9 +29,13 @@
   font-size: 85%;
 }
 
+.navbar-light,footer { 
+   background-color: #20BF9F;
+ }
 footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin-top: 2rem;
+  /*padding-top: 3rem;
+  padding-bottom: 3rem;*/
 }
 
 footer p {
@@ -43,4 +47,12 @@ ul>li {
   flex-direction: row;
   font-size: 21px;
   list-style: none; 
+}
+
+a {
+  color: #fafafa;
+}
+
+.wrapper {
+  background-color: #fafafa;
 }
