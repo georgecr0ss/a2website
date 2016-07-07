@@ -14,7 +14,7 @@
     'angular2-tree-component':    'node_modules/angular2-tree-component',
     'lodash':                     'node_modules/lodash',
     'ng2-dragula':                'node_modules/ng2-dragula',
-    'dragula':                    'node_modules/ng2-dragula'
+    'dragula':                    'node_modules/dragula/dist/dragula.js',
   };
 
   // packages tells the System loader how to load when no filename and/or no extension
